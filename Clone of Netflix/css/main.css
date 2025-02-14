@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.A {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.blackbg {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 70%;
+}
+
+.img_1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Nav {
+    width: 100%;
+}
+
+.N_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_2 {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+}
+
+.nav_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    padding: 5px;
+    gap: 54vw;
+
+}
+
+.nav_1_n_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    gap: 10px;
+}
+
+.nav_1_n_2-1 {
+    border: 1px solid gray;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.nav_1_n_2-2 {
+    background-color: red;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav_2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0px 25px 0px;
+}
+
+.nav_2_n_1 {
+    padding: 2px 4px;
+}
+
+.nav_3 {
+    color: white;
+    margin: 0 0 30px 0;
+}
+
+.nav_4 {
+    color: white;
+    margin: 0 0 10px 0;
+
+}
+
+.nav_5{
+     margin-bottom: 160px;
+}
+.nav_5_n_1 {
+    display: flex;
+    gap: 10px;
+}
+
+#inp_1 {
+    color: white;
+    font-size: 25px;
+    width: 28vw;
+    height: 53px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: rgba(75, 75, 78, 0.496)
+}
+
+#inp_1:hover {
+    border: 3px solid white;
+}
+
+.nav_5_n_1-1 {
+    border: none;
+    display: flex;
+    gap: 5px;
+    width: 12vw;
+    height: 60px;
+    border-radius: 5px;
+    font-weight: 300;
+    background-color: red;
+    color: white;
+    padding: 15px 0 0 15px;
+    cursor: pointer;
+}
+ .curve{
+    align-self: center;
+    width: 100%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    height: 150px;
+    background-color: black;
+    position:static;
+    left: 0;
+    /* left: 0; */
+    /* right: 1px; */
+    /* top: 25px; */
+ }
+ .fake{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
